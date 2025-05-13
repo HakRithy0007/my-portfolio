@@ -11,7 +11,7 @@
       </div>
       
       <!-- Profile Content -->
-      <div class="px-8 pt-10 pb-8 relative">
+      <div class="px-8 pt-10 pb-8 md:pt-8 md:pb-4 relative">
         <!-- Profile Avatar (Positioned to overlap top section) -->
         <div class="absolute -top-12 left-1/2 transform -translate-x-1/2">
           <div class="relative">
@@ -25,8 +25,7 @@
         <!-- Name & Title -->
         <div class="mt-14 md:mt-8 text-center">
           <div class="flex flex-col justify-center items-center md:flex-row md:gap-2 ">
-               <p class="text-3xl text-cyan-300 font-medium mb-1">Hello, I'm</p>
-              <h1 class="text-3xl font-bold bg-gradient-to-r from-cyan-300 via-blue-300 to-purple-400 bg-clip-text text-transparent my-4">HAK RITHY KIM</h1>
+              <h1 class="text-3xl font-bold bg-gradient-to-r from-cyan-300 via-blue-300 to-purple-400 bg-clip-text text-transparent my-4">KIM HAK RITHY </h1>
           </div>
           <div class="flex items-center justify-center gap-2 mb-4 md:mb-2">
             <div class="h-[1px] w-12 bg-gradient-to-r from-transparent via-cyan-400 to-transparent"></div>
