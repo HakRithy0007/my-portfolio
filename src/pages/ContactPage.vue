@@ -2,7 +2,7 @@
   <div class="min-h-screen w-full bg-gradient-to-br from-indigo-950 via-purple-900 to-blue-950 p-6 flex flex-col items-center justify-center">
       
       <!-- Content -->
-      <div class="p-6 md:p-8">
+      <div class="w-full  md:p-2">
         <!-- Contact Introduction -->
         <div class="mb-8 text-center">
           <h1 class="text-2xl md:text-3xl font-bold bg-gradient-to-r from-cyan-300 via-blue-300 to-purple-400 bg-clip-text text-transparent mb-4">GET IN TOUCH</h1>

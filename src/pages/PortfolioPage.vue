@@ -1,9 +1,11 @@
 <template>
-  <div class="h-full w-full rounded-md bg-gradient-to-br from-indigo-950 via-purple-900 to-blue-950 p-6 flex flex-col items-center justify-center">
+  <div class="min-h-screen w-full rounded-md bg-gradient-to-br from-indigo-950 via-purple-900 to-blue-950 p-2 flex flex-col items-center justify-center">
       
-        <!-- Portfolio Introduction -->
+    <div class="w-full p-2 md:p-2">
+
+              <!-- Portfolio Introduction -->
         <div class="mb-8 text-center">
-          <h1 class="text-2xl md:text-3xl font-bold bg-gradient-to-r from-cyan-300 via-blue-300 to-purple-400 bg-clip-text text-transparent mb-4">PROJECTS</h1>
+          <h1 class="text-2xl md:text-3xl font-bold bg-gradient-to-r from-cyan-300 via-blue-300 to-purple-400 bg-clip-text text-transparent mb-4 mt-3">PROJECTS</h1>
           <p class="text-white/80 max-w-2xl mx-auto">Explore a collection of my most recent and significant projects.</p>
         </div>
         
@@ -69,6 +71,8 @@
           </div>
           <p class="text-white/60">No projects found in this category.</p>
         </div>
+    </div>
+
       </div>
 </template>
 
@@ -100,6 +104,76 @@ const projects = [
     technologies: ['Vue.js', 'TypeScript', 'Tailwind CSS', 'Chart.js'],
     liveUrl: 'https://example.com/ecommerce',
     githubUrl: 'https://github.com/username/ecommerce'
+  },
+  {
+    id: 2,
+    title: 'Fitness Tracker App',
+    description: 'Mobile application for tracking workouts, nutrition, and health metrics with personalized recommendations.',
+    image: '/api/placeholder/600/400',
+    category: 'Landing',
+    technologies: ['React Native', 'Redux', 'Firebase'],
+    liveUrl: 'https://example.com/fitness',
+    githubUrl: 'https://github.com/username/fitness'
+  },
+  {
+    id: 2,
+    title: 'Fitness Tracker App',
+    description: 'Mobile application for tracking workouts, nutrition, and health metrics with personalized recommendations.',
+    image: '/api/placeholder/600/400',
+    category: 'Landing',
+    technologies: ['React Native', 'Redux', 'Firebase'],
+    liveUrl: 'https://example.com/fitness',
+    githubUrl: 'https://github.com/username/fitness'
+  },
+  {
+    id: 2,
+    title: 'Fitness Tracker App',
+    description: 'Mobile application for tracking workouts, nutrition, and health metrics with personalized recommendations.',
+    image: '/api/placeholder/600/400',
+    category: 'Landing',
+    technologies: ['React Native', 'Redux', 'Firebase'],
+    liveUrl: 'https://example.com/fitness',
+    githubUrl: 'https://github.com/username/fitness'
+  },
+  {
+    id: 2,
+    title: 'Fitness Tracker App',
+    description: 'Mobile application for tracking workouts, nutrition, and health metrics with personalized recommendations.',
+    image: '/api/placeholder/600/400',
+    category: 'Landing',
+    technologies: ['React Native', 'Redux', 'Firebase'],
+    liveUrl: 'https://example.com/fitness',
+    githubUrl: 'https://github.com/username/fitness'
+  },
+  {
+    id: 2,
+    title: 'Fitness Tracker App',
+    description: 'Mobile application for tracking workouts, nutrition, and health metrics with personalized recommendations.',
+    image: '/api/placeholder/600/400',
+    category: 'Landing',
+    technologies: ['React Native', 'Redux', 'Firebase'],
+    liveUrl: 'https://example.com/fitness',
+    githubUrl: 'https://github.com/username/fitness'
+  },
+  {
+    id: 2,
+    title: 'Fitness Tracker App',
+    description: 'Mobile application for tracking workouts, nutrition, and health metrics with personalized recommendations.',
+    image: '/api/placeholder/600/400',
+    category: 'Landing',
+    technologies: ['React Native', 'Redux', 'Firebase'],
+    liveUrl: 'https://example.com/fitness',
+    githubUrl: 'https://github.com/username/fitness'
+  },
+  {
+    id: 2,
+    title: 'Fitness Tracker App',
+    description: 'Mobile application for tracking workouts, nutrition, and health metrics with personalized recommendations.',
+    image: '/api/placeholder/600/400',
+    category: 'Landing',
+    technologies: ['React Native', 'Redux', 'Firebase'],
+    liveUrl: 'https://example.com/fitness',
+    githubUrl: 'https://github.com/username/fitness'
   },
   {
     id: 2,

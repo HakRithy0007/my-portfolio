@@ -2,7 +2,7 @@
   <div class="min-h-screen w-full bg-gradient-to-br from-indigo-950 via-purple-900 to-blue-950 p-6 flex flex-col items-center justify-center">
       
       <!-- Content -->
-      <div class="p-2 md:p-2">
+      <div class="w-full p-2 md:p-2">
 
         <!-- Skills Section -->
         <div class="mb-8">
