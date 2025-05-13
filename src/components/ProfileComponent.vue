@@ -23,10 +23,12 @@
         </div>
         
         <!-- Name & Title -->
-        <div class="mt-14 text-center">
-          <p class="text-cyan-300 font-medium mb-1">Hello, I'm</p>
-          <h1 class="text-3xl font-bold bg-gradient-to-r from-cyan-300 via-blue-300 to-purple-400 bg-clip-text text-transparent my-4">HAK RITHY KIM</h1>
-          <div class="flex items-center justify-center gap-2 mb-4">
+        <div class="mt-14 md:mt-8 text-center">
+          <div class="flex flex-col justify-center items-center md:flex-row md:gap-2 ">
+               <p class="text-3xl text-cyan-300 font-medium mb-1">Hello, I'm</p>
+              <h1 class="text-3xl font-bold bg-gradient-to-r from-cyan-300 via-blue-300 to-purple-400 bg-clip-text text-transparent my-4">HAK RITHY KIM</h1>
+          </div>
+          <div class="flex items-center justify-center gap-2 mb-4 md:mb-2">
             <div class="h-[1px] w-12 bg-gradient-to-r from-transparent via-cyan-400 to-transparent"></div>
             <p class="text-white font-light tracking-wide">Web Developer</p>
             <div class="h-[1px] w-12 bg-gradient-to-r from-transparent via-purple-400 to-transparent"></div>
@@ -35,7 +37,7 @@
 
 
         <!-- Social Links -->
-        <div class="flex justify-center items-center gap-3 my-6">
+        <div class="flex justify-center items-center gap-3 my-6 md:my-2">
           <div v-for="(social, index) in socials" :key="index">
             <TooltipProvider>
               <Tooltip>
@@ -53,7 +55,7 @@
         </div>
         
         <!-- Bio Quote -->
-        <div class="my-10 p-4 rounded-xl bg-white/5 border border-white/10">
+        <div class="my-10 md:my-6 p-4 rounded-md bg-white/5 border border-white/10">
           <p class="text-white/80 text-sm italic text-center leading-relaxed">
             "Programming today is a race between software engineers striving to build bigger and better idiot-proof 
             programs and the Universe trying to produce bigger and better idiots. So far, the Universe is winning."
@@ -61,14 +63,14 @@
         </div>
                
         <!-- Navigation Menu -->
-        <div class="mt-2">
+        <div class="mt-2 md:mt-1">
           <div class="w-full grid grid-cols-3 gap-4">
             <Button 
             v-for="item in menuItems" 
             :key="item.label" 
             @click="goTo(item.route)"
             :class="[
-                'w-full rounded-xl font-medium transition-all duration-300 border hover:shadow-lg hover:shadow-purple-900/20 hover:-translate-y-1',
+                'w-full rounded-md font-medium transition-all duration-300 border hover:shadow-lg hover:shadow-purple-900/20 hover:-translate-y-1',
                 'bg-gradient-to-br from-blue-600/40 to-purple-600/40 border-white/10 text-white hover:from-blue-500 hover:to-purple-500',
                 activeRoute === item.route ? 'ring-2 ring-cyan-400 scale-[1.03]' : ''
             ]"
