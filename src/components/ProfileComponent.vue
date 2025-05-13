@@ -1,7 +1,7 @@
 <template>
   <div class="h-full w-full bg-gradient-to-br from-indigo-950 via-purple-900 to-blue-950 p-6 flex flex-col items-center justify-center rounded-md">
     <!-- Glass Card Container -->
-    <div class="w-full h-full max-w-md rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-2xl overflow-hidden">
+    <div class="w-full h-full rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-2xl overflow-hidden">
       
       <!-- Top Accent Pattern -->
       <div class="h-14 w-full bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 flex items-center justify-center relative overflow-hidden">
